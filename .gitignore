@@ -1,0 +1,28 @@
+# Dependências
+node_modules/
+
+# Build e cobertura
+dist/
+build/
+coverage/
+
+# Variáveis de ambiente e credenciais
+.env*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ferramentas de deploy locais
+.netlify/
+.vercel/
+
+# Arquivos descartados durante a organização do projeto
+_nao-utilizado/
